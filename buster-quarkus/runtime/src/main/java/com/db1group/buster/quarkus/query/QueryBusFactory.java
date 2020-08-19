@@ -15,7 +15,7 @@ public class QueryBusFactory {
     }
 
     @Produces
-    public QueryBus commandBus() {
+    public QueryBus queryBus() {
         return new QueryBus(queryHandlerFactoryQuarkus);
     }
 }
