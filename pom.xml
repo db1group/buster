@@ -24,8 +24,8 @@
 
     <modules>
         <module>buster-core</module>
-        <module>buster-jakarta-ee</module>
         <module>buster-spring</module>
+        <module>buster-quarkus</module>
     </modules>
 
     <dependencies>
