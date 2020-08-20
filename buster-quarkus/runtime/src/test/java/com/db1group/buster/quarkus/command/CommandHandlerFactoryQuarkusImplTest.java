@@ -3,7 +3,7 @@ package com.db1group.buster.quarkus.command;
 import com.db1group.buster.command.Command;
 import com.db1group.buster.command.CommandHandler;
 import com.db1group.buster.quarkus.common.ClientProxySpecification;
-import com.db1group.buster.quarkus.common.NotFoundException;
+import com.db1group.buster.common.NotFoundException;
 import io.quarkus.test.QuarkusUnitTest;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
@@ -42,7 +42,7 @@ class CommandHandlerFactoryQuarkusImplTest {
     }
 
     @Test
-    void get_whenHandlerNotImplementedToCommand_shouldReturnHandler() {
+    void get_whenHandlerNotImplementedToCommand_shouldThrowNotFoundException() {
         NotFoundException exception = assertThrows(NotFoundException.class, () -> commandHandlerFactoryQuarkus.get(new NotFoundFakeCommand()));
         assertEquals("Handler to Command com.db1group.buster.quarkus.command.NotFoundFakeCommand not found", exception.getMessage());
     }

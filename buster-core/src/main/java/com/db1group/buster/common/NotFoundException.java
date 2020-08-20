@@ -1,4 +1,4 @@
-package com.db1group.buster.quarkus.common;
+package com.db1group.buster.common;
 
 public class NotFoundException extends RuntimeException {
 

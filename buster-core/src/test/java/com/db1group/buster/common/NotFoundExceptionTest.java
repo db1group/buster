@@ -1,6 +1,5 @@
-package com.db1group.buster.quarkus;
+package com.db1group.buster.common;
 
-import com.db1group.buster.quarkus.common.NotFoundException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

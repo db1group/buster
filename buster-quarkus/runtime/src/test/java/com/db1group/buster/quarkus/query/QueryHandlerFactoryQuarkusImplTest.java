@@ -1,7 +1,7 @@
 package com.db1group.buster.quarkus.query;
 
 import com.db1group.buster.quarkus.common.ClientProxySpecification;
-import com.db1group.buster.quarkus.common.NotFoundException;
+import com.db1group.buster.common.NotFoundException;
 import com.db1group.buster.query.Query;
 import com.db1group.buster.query.QueryHandler;
 import io.quarkus.test.QuarkusUnitTest;

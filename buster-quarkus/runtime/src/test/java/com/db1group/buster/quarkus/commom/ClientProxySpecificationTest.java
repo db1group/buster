@@ -1,4 +1,4 @@
-package com.db1group.buster.quarkus;
+package com.db1group.buster.quarkus.commom;
 
 import com.db1group.buster.quarkus.common.ClientProxySpecification;
 import io.quarkus.arc.ClientProxy;

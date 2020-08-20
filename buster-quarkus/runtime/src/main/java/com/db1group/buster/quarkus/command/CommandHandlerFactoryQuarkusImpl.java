@@ -3,7 +3,7 @@ package com.db1group.buster.quarkus.command;
 import com.db1group.buster.command.Command;
 import com.db1group.buster.command.CommandHandler;
 import com.db1group.buster.command.CommandHandlerFactory;
-import com.db1group.buster.quarkus.common.NotFoundException;
+import com.db1group.buster.common.NotFoundException;
 import io.quarkus.arc.ClientProxy;
 
 import javax.enterprise.context.Dependent;
