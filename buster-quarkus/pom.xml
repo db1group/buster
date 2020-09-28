@@ -7,12 +7,12 @@
     <parent>
         <artifactId>buster</artifactId>
         <groupId>com.db1group.buster</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0.0</version>
     </parent>
 
     <groupId>com.db1group.buster</groupId>
     <artifactId>buster-quarkus-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0.0</version>
     <name>Buster Extension - Parent</name>
 
     <packaging>pom</packaging>

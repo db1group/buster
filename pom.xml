@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.db1group.buster</groupId>
     <artifactId>buster</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0.0</version>
     <name>buster</name>
 
     <packaging>pom</packaging>

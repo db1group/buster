@@ -6,11 +6,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.3.RELEASE</version>
+        <relativePath/>
     </parent>
 
     <groupId>com.db1group.buster</groupId>
     <artifactId>buster-spring</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0.0</version>
 
     <name>buster-spring</name>
 
